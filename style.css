@@ -1,0 +1,15 @@
+body {
+    background-color: #EFEFF3;   
+}
+
+.header {
+    padding: 10px;
+    font-family: ui-sans-serif ;
+    background-color: #3d3e54;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 32px;
+}
