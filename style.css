@@ -33,7 +33,21 @@ body {
     text-decoration: underline 5px ;
 }
 
-#about-me {
-    font-family: 'Courier New', Courier, monospace;
+.about-me {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
     color: #648ec8;
+}
+
+p {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #648ec8;
+}
+
+.gradient {
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
 }
