@@ -6,10 +6,34 @@ body {
     padding: 10px;
     font-family: ui-sans-serif ;
     background-color: #3d3e54;
-    color: #ffffff;
+    color: #7fe2dd;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 32px;
+    color: #7fe2dd;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: inline-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline 5px ;
+}
+
+#about-me {
+    font-family: 'Courier New', Courier, monospace;
+    color: #648ec8;
 }
