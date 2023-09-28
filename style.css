@@ -4,7 +4,7 @@ body {
 
 .header {
     padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     /*TODO: change text color to dark blue; add teal box around it*/
     background-color: #3d3e54;
     color: #7fe2dd;
@@ -21,7 +21,7 @@ body {
     margin-right: 20px;
     float: inline-end;
     font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #7fe2dd; 
 }
 
@@ -46,24 +46,12 @@ a:link {
 a:visited {
     color: #7fe2dd;
 }
+
+
 main {
     display: flex;
 }
-.aside {
-    width: 40%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
-    color: #648ec8;
-    float:right;
-    padding-right: 30px;
-  
-}
 
-p {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #648ec8;
-    border-left: solid #648ec8;
-}
 
 .cover-photo {
     height: 170px;
@@ -73,32 +61,96 @@ p {
     margin-bottom: 20px;
 }
 
+
+
 .selfie {
-    height: 75px;
-    width: 75px;
+    height: 70%;
+    width: 90%;
     position: relative; 
     margin: 10px;
     /*background-position:left;*/
 
 }
 
+
+/* ---------------- CSS FOR ASIDE -------------------*/
+.left {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: #3d3e54;
+    float:right;
+    padding-right: 30px;
+  
+}
+
+
+.left h2 {
+    font-size: 35px;
+}
+
+
 .aboutMe {
     margin-bottom: 200px;
     text-align: right;
-    /*border-right: solid #648ec8;*/
-    
+    /* remove due to adding border for top/middle/bottom containers
+    border-right: solid #3d3e54; */
     
 }
 
 .work {
     margin-bottom: 200px;
     text-align: right;
+    /* remove due to adding border for top/middle/bottom containers
+    border-right: solid #3d3e54; */
+
 }
 
 .contactMe {
     margin-bottom: 200px;
     text-align: right;
+    /* remove due to adding border for top/middle/bottom containers
+    border-right: solid #3d3e54; */
 }
+/* ---------------- END CSS FOR ASIDE -------------------*/
+
+
+
+
+
+/*-------------- CSS FOR TOP CONTAINER -----------*/
+
+.top {
+    margin-right: 5%;
+    display: block;
+    padding-left: 25px;
+    border-left: solid #3d3e54;
+}
+p {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3d3e54;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+/*-------------- END CSS FOR TOP CONTAINER -----------*/
+
+.middle {
+    display: block;
+}
+
+
+
+/*-------------- CSS FOR MIDDLE CONTAINER -----------*/
+/*-------------- END CSS FOR MIDDLE CONTAINER -----------*/
+
+
+
+
+
+
+
 /*
 .verticalLine {
     border-left: 6px solid #648ec8;
