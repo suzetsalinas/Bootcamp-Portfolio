@@ -121,6 +121,7 @@ main {
 
 .top {
     margin-right: 5%;
+    margin-bottom: 20%;
     display: flex;
     padding-left: 25px;
     border-left: solid #3d3e54;
@@ -144,7 +145,17 @@ p {
 
 .middle {
     display: flex;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    padding-left: 25px;
+    border-left: solid #3d3e54;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+
+
+
 
 /*-------------- END CSS FOR MIDDLE CONTAINER -----------*/
 
@@ -154,16 +165,8 @@ p {
 /*-------------- END CSS FOR BOTTOM CONTAINER -----------*/
 .bottom {
     display: flex;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-left: solid #3d3e54;
 }
 /*-------------- END CSS FOR BOTTOM CONTAINER -----------*/
-
-
-
-
-/*
-.verticalLine {
-    border-left: 6px solid #648ec8;
-    height: 150px;
-    position:relative;
-    left: 30%
-}
