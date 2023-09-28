@@ -64,8 +64,8 @@ main {
 
 
 .selfie {
-    height: 70%;
-    width: 90%;
+    height: 50%;
+    width: 50%;
     position: relative; 
     margin: 10px;
     /*background-position:left;*/
@@ -75,7 +75,7 @@ main {
 
 /* ---------------- CSS FOR ASIDE -------------------*/
 .left {
-    width: 40%;
+    width: 20%;
     font-family: Arial, Helvetica, sans-serif ;
     color: #3d3e54;
     float:left;
