@@ -33,28 +33,36 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    text-decoration: underline ;
+    text-decoration: underline 5px ;
+    
     color:#7fe2dd;
 }
 
-a {
+a:link {
     color: #7fe2dd;
-    te
+    text-decoration: none;
+}
+
+a:visited {
+    color: #7fe2dd;
 }
 main {
     display: flex;
 }
 .aside {
+    width: 40%;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     color: #648ec8;
-    float: left;
+    float:right;
     padding-right: 30px;
+  
 }
 
 p {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #648ec8;
+    border-left: solid #648ec8;
 }
 
 .cover-photo {
@@ -68,15 +76,18 @@ p {
 .selfie {
     height: 75px;
     width: 75px;
-    /* position: relative; */
+    position: relative; 
     margin: 10px;
-    background-position:left;
+    /*background-position:left;*/
 
 }
 
-.about-me {
+.aboutMe {
     margin-bottom: 200px;
     text-align: right;
+    /*border-right: solid #648ec8;*/
+    
+    
 }
 
 .work {
@@ -84,7 +95,14 @@ p {
     text-align: right;
 }
 
-.contact-me {
+.contactMe {
     margin-bottom: 200px;
     text-align: right;
+}
+/*
+.verticalLine {
+    border-left: 6px solid #648ec8;
+    height: 150px;
+    position:relative;
+    left: 30%
 }
