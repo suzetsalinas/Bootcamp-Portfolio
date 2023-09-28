@@ -32,10 +32,14 @@ body {
     margin-left: 25px;
     text-decoration: underline 5px ;
 }
-
-.about-me {
+main {
+    display: flex;
+}
+.aside {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     color: #648ec8;
+    float: left;
+    padding-right: 30px;
 }
 
 p {
@@ -50,4 +54,13 @@ p {
     background-size: cover;
     background-position: center;
     margin-bottom: 20px;
+}
+
+.selfie {
+    height: 75px;
+    width: 75px;
+    /* position: relative; */
+    margin: 10px;
+    background-position:left;
+
 }
