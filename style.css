@@ -4,7 +4,8 @@ body {
 
 .header {
     padding: 10px;
-    font-family: ui-sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*TODO: change text color to dark blue; add teal box around it*/
     background-color: #3d3e54;
     color: #7fe2dd;
 }
@@ -19,18 +20,26 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: inline-end;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7fe2dd; 
 }
 
 .header nav ul {
     list-style-type: none;
+   
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    text-decoration: underline 5px ;
+    text-decoration: underline ;
+    color:#7fe2dd;
+}
+
+a {
+    color: #7fe2dd;
+    te
 }
 main {
     display: flex;
@@ -48,7 +57,7 @@ p {
     color: #648ec8;
 }
 
-.gradient {
+.cover-photo {
     height: 170px;
     width: 100%;
     background-size: cover;
@@ -63,4 +72,19 @@ p {
     margin: 10px;
     background-position:left;
 
+}
+
+.about-me {
+    margin-bottom: 200px;
+    text-align: right;
+}
+
+.work {
+    margin-bottom: 200px;
+    text-align: right;
+}
+
+.contact-me {
+    margin-bottom: 200px;
+    text-align: right;
 }
