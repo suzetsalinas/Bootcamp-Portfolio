@@ -1,11 +1,10 @@
 body {
     background-color: #EFEFF3;   
 }
-
+/* --------------------- STYLING HEADER ------------------ */
 .header {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    /*TODO: change text color to dark blue; add teal box around it*/
     background-color: #3d3e54;
     color: #7fe2dd;
 }
@@ -27,14 +26,12 @@ body {
 
 .header nav ul {
     list-style-type: none;
-   
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-decoration: underline 5px ;
-    
     color:#7fe2dd;
 }
 
@@ -47,12 +44,6 @@ a:visited {
     color: #7fe2dd;
 }
 
-
-main {
-    display: block;
-}
-
-
 .cover-photo {
     height: 170px;
     width: 100%;
@@ -62,25 +53,28 @@ main {
 }
 
 
+/* ------------------ STYLING MAIN -------------------- */
+main {
+    display: block;
+}
 
+
+
+/* ---------------- STYLING LEFT CONTAINER -------------------*/
 .selfie {
     height: 50%;
     width: 50%;
     position: relative; 
     margin: 10px;
-    /*background-position:left;*/
-
 }
 
-
-/* ---------------- CSS FOR ASIDE -------------------*/
 .left {
     width: 20%;
     font-family: Arial, Helvetica, sans-serif ;
     color: #3d3e54;
     float:left;
     padding-right: 30px;
-  
+    margin-bottom: 100%;
 }
 
 
@@ -91,34 +85,20 @@ main {
 
 .aboutMe {
     margin-bottom: 200px;
-    text-align: right;
-    /* remove due to adding border for top/middle/bottom containers
-    border-right: solid #3d3e54; */
-    
+    text-align: right;    
 }
 
 .work {
-    margin-bottom: 200px;
+    margin-bottom: 400%;
     text-align: right;
-    /* remove due to adding border for top/middle/bottom containers
-    border-right: solid #3d3e54; */
-
 }
 
 .contactMe {
     margin-bottom: 200px;
     text-align: right;
-    /* remove due to adding border for top/middle/bottom containers
-    border-right: solid #3d3e54; */
 }
-/* ---------------- END CSS FOR ASIDE -------------------*/
 
-
-
-
-
-/*-------------- CSS FOR TOP CONTAINER -----------*/
-
+/*-------------- STYLING TOP CONTAINER -----------*/
 .top {
     margin-right: 5%;
     margin-bottom: 20%;
@@ -127,7 +107,6 @@ main {
     border-left: solid #3d3e54;
 }
 p {
-    
     font-family: Arial, Helvetica, sans-serif;
     color: #3d3e54;
     margin-top: 30px;
@@ -135,77 +114,82 @@ p {
     line-height: 150%;
 }
 
-/*-------------- END CSS FOR TOP CONTAINER -----------*/
-
-
-
-
-
 /*-------------- CSS FOR MIDDLE CONTAINER -----------*/
-
 .middle {
     display: flex;
     margin-right: 5%;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     padding-left: 25px;
     border-left: solid #3d3e54;
     justify-content: space-around;
     flex-wrap: wrap;
-    position: relative;
-    
+    position: relative;  
 }
-
 
 .item2a {
-    margin 5%;
-    padding: 5%;
+    margin: 5%;
 }
-
 
 .image2a {
     width: 100%;
-    height: 100%;
+    height: 70%;
     border: solid 5px #7fe2dd;
-   
 }
-
 
 .text2a {
     position: absolute;
-
+    font-size: 25px
 }
 
 .image2b {
-    width: 50%;
+    width: 40%;
     height: 50%;
     border: solid 5px #7fe2dd;
 }
+
 .image2c {
-    width: 50%;
+    width: 40%;
     height: 50%;
     border: solid 5px #7fe2dd;
 }
+
 .image2d {
-    width: 50%;
+    width: 40%;
     height: 50%;
     border: solid 5px #7fe2dd;
 }
+
 .image2e {
-    width: 50%;
+    width: 40%;
     height: 50%;
     border: solid 5px #7fe2dd;
 }
 
-/*-------------- END CSS FOR MIDDLE CONTAINER -----------*/
+.item2b2c {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.item2d2e {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
-
-
-/*-------------- END CSS FOR BOTTOM CONTAINER -----------*/
+/*-------------- STYLING FOR BOTTOM CONTAINER -----------*/
 .bottom {
     display: flex;
     margin-right: 5%;
     padding-left: 25px;
     border-left: solid #3d3e54;
+    position: relative;
 }
-/*-------------- END CSS FOR BOTTOM CONTAINER -----------*/
+
+.bottom nav ul li {
+    font-size: 20px;
+    margin-right: 10%; 
+    display:inline-block;
+}
