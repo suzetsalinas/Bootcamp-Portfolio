@@ -1,4 +1,4 @@
-# Challenge-2
+# Portfolio
 This project corresponds to Challenge 2 with the objective of creating a professional portfolio using advanced CSS so that potential employers can review and assess samples of my work.  
 This is the link to the live application: https://suzetsalinas.github.io/Challenge-2/ .  
 The following two images are screenshots of the live application:
